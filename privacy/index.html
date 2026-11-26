@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hummly Privacy Policy</title>
+<meta name="description" content="How Hummly handles your data.">
+<link rel="icon" href="../hummi.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #2E9E6E;
+    --text: #16302A;
+    --muted: #4D6359;
+    --bg: #F1F4EA;
+    --card: #FFFFFF;
+    --line: #DCE4D6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 "Nunito Sans", system-ui, -apple-system, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  header img { width: 48px; height: 48px; }
+  .brand { font: 700 22px "Bricolage Grotesque", system-ui, sans-serif; }
+  nav.lang { margin-left: auto; display: flex; gap: 4px; }
+  nav.lang a {
+    padding: 6px 12px; border-radius: 999px; text-decoration: none;
+    color: var(--muted); font-weight: 700; font-size: 14px;
+  }
+  nav.lang a.active { background: var(--card); color: var(--green); }
+  article {
+    background: var(--card); border-radius: 24px; padding: 28px 24px;
+    margin-top: 16px;
+  }
+  h1 {
+    font: 700 32px/1.2 "Bricolage Grotesque", system-ui, sans-serif;
+    margin: 0 0 4px;
+  }
+  h2 {
+    font: 600 21px/1.3 "Bricolage Grotesque", system-ui, sans-serif;
+    margin: 32px 0 8px;
+  }
+  .date { color: var(--muted); margin: 0 0 20px; }
+  .lead { font-size: 18px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--green); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-top: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 700; }
+  .table-wrap { overflow-x: auto; }
+  footer { color: var(--muted); font-size: 14px; text-align: center; margin-top: 24px; }
+  .js [data-lang]:not(.shown) { display: none; }
+</style>
+<script>
+  // Without JavaScript both languages are shown one after another.
+  document.documentElement.classList.add('js');
+</script>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../hummi.svg" alt="">
+    <span class="brand">Hummly</span>
+    <nav class="lang" aria-label="Language">
+      <a href="#en" data-switch="en">English</a>
+      <a href="#uk" data-switch="uk">Українська</a>
+    </nav>
+  </header>
+
+  <article id="en" data-lang="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective November 26, 2026</p>
+
+    <p class="lead">Hummly is a calm home-cleaning helper. We built it to need as little of your data as possible: your home, rooms and tasks stay on your device.</p>
+
+    <p>This policy explains what the Hummly app for iPhone (“Hummly”, “we”) collects, why, and the choices you have. Hummly is made by Liudmyla Tymoshenko, an independent developer.</p>
+
+    <h2>What stays on your device</h2>
+    <p>Everything you enter into Hummly is stored only on your iPhone and is not sent to us:</p>
+    <ul>
+      <li>your answers to the setup questions (who lives with you, your home, your time and reminder preferences);</li>
+      <li>your rooms, tasks, cleaning history and settings.</li>
+    </ul>
+    <p>Reminders are local notifications scheduled by your iPhone. No server sends them.</p>
+
+    <h2>What is sent to services we use</h2>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Service</th><th>What it receives</th><th>Why</th></tr>
+      <tr>
+        <td>Firebase Authentication (Google)</td>
+        <td>A random anonymous account ID. No name, email or phone number.</td>
+        <td>To recognize your app install, so your subscription and statistics stay linked to it.</td>
+      </tr>
+      <tr>
+        <td>Firebase Analytics (Google)</td>
+        <td>Usage events, such as finishing setup, completing a task or opening the subscription screen, with simple details (for example, how many rooms were set up). Also device and app information that Analytics collects automatically: device model, iOS version, app version, language, and an approximate region derived from the IP address.</td>
+        <td>To understand which parts of Hummly help people and where it can be improved.</td>
+      </tr>
+      <tr>
+        <td>RevenueCat</td>
+        <td>The anonymous account ID and your subscription status and purchase history from the App Store.</td>
+        <td>To check whether you have a subscription and unlock premium features.</td>
+      </tr>
+      <tr>
+        <td>Apple (App Store)</td>
+        <td>Payments and subscriptions are handled entirely by Apple under your Apple Account.</td>
+        <td>To process purchases. We never see your payment details.</td>
+      </tr>
+    </table>
+    </div>
+    <p>Analytics events never include the names of your rooms or tasks, or any text you type.</p>
+
+    <h2>What we do not do</h2>
+    <ul>
+      <li>We do not show ads.</li>
+      <li>We do not sell or share your data for advertising.</li>
+      <li>We do not track you across other companies’ apps or websites, and we do not use the advertising identifier (IDFA).</li>
+      <li>We do not ask for your name, email, contacts, photos or precise location.</li>
+    </ul>
+
+    <h2>How long data is kept</h2>
+    <ul>
+      <li>Data on your device stays until you delete the app.</li>
+      <li>Analytics event data is kept by Google for a limited period (up to 14 months) and then deleted automatically.</li>
+      <li>Subscription records are kept by RevenueCat and Apple for as long as needed for billing, accounting and legal obligations.</li>
+    </ul>
+
+    <h2>Your choices and rights</h2>
+    <ul>
+      <li><strong>Delete your data on the device:</strong> delete Hummly from your iPhone. This removes your rooms, tasks and history.</li>
+      <li><strong>Delete data held by our services:</strong> email us at <a href="mailto:hummly.app@gmail.com">hummly.app@gmail.com</a>. Since your account is anonymous, it helps to send the date you installed Hummly. We will delete the related analytics and subscription records that we control.</li>
+      <li><strong>Manage or cancel a subscription:</strong> iPhone Settings → your name → Subscriptions.</li>
+      <li><strong>Notifications:</strong> turn them off at any time in iPhone Settings → Notifications → Hummly.</li>
+    </ul>
+    <p>Depending on where you live (for example, in the EU, the UK or California), you may have the right to access, correct or delete your personal data, or to object to its processing. Write to us and we will respond within 30 days. The legal basis for analytics is our legitimate interest in improving Hummly; subscription data is processed to perform our contract with you.</p>
+
+    <h2>Children</h2>
+    <p>Hummly is meant for adults managing a household. It is not directed at children under 13, and we do not knowingly collect their personal data.</p>
+
+    <h2>International transfers</h2>
+    <p>Google and RevenueCat may process data in the United States and other countries. They use safeguards such as Standard Contractual Clauses where required.</p>
+
+    <h2>Changes</h2>
+    <p>If we change this policy, we will update this page and the date at the top. Significant changes will also be mentioned in the app’s release notes.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests: <a href="mailto:hummly.app@gmail.com">hummly.app@gmail.com</a></p>
+  </article>
+
+  <article id="uk" data-lang="uk" lang="uk">
+    <h1>Політика конфіденційності</h1>
+    <p class="date">Діє з 26 листопада 2026 року</p>
+
+    <p class="lead">Hummly — спокійний помічник для прибирання дому. Ми зробили його так, щоб йому потрібно було якомога менше ваших даних: ваш дім, кімнати й завдання лишаються на вашому пристрої.</p>
+
+    <p>Ця політика пояснює, що збирає застосунок Hummly для iPhone («Hummly», «ми»), навіщо, і що ви можете з цим зробити. Hummly створює Людмила Тимошенко, незалежна розробниця.</p>
+
+    <h2>Що лишається на вашому пристрої</h2>
+    <p>Усе, що ви вводите в Hummly, зберігається лише на вашому iPhone і не надсилається нам:</p>
+    <ul>
+      <li>відповіді на запитання при налаштуванні (хто з вами живе, ваш дім, час і нагадування);</li>
+      <li>ваші кімнати, завдання, історія прибирання та налаштування.</li>
+    </ul>
+    <p>Нагадування — це локальні сповіщення, які планує сам iPhone. Жоден сервер їх не надсилає.</p>
+
+    <h2>Що надсилається сервісам, якими ми користуємося</h2>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Сервіс</th><th>Що отримує</th><th>Навіщо</th></tr>
+      <tr>
+        <td>Firebase Authentication (Google)</td>
+        <td>Випадковий анонімний ідентифікатор акаунта. Без імені, пошти чи номера телефону.</td>
+        <td>Щоб розпізнавати ваше встановлення застосунку й пов'язувати з ним підписку та статистику.</td>
+      </tr>
+      <tr>
+        <td>Firebase Analytics (Google)</td>
+        <td>Події використання, наприклад завершення налаштування, виконання завдання чи відкриття екрана підписки, з простими деталями (скільки кімнат налаштовано тощо). А також дані про пристрій і застосунок, які Analytics збирає автоматично: модель пристрою, версія iOS, версія застосунку, мова й приблизний регіон за IP-адресою.</td>
+        <td>Щоб розуміти, які частини Hummly допомагають людям і що варто покращити.</td>
+      </tr>
+      <tr>
+        <td>RevenueCat</td>
+        <td>Анонімний ідентифікатор акаунта, а також статус підписки й історія покупок з App Store.</td>
+        <td>Щоб перевіряти, чи є у вас підписка, і відкривати преміум-можливості.</td>
+      </tr>
+      <tr>
+        <td>Apple (App Store)</td>
+        <td>Оплату й підписки повністю обробляє Apple у межах вашого Apple Account.</td>
+        <td>Щоб проводити покупки. Ваших платіжних даних ми не бачимо.</td>
+      </tr>
+    </table>
+    </div>
+    <p>Події аналітики ніколи не містять назв ваших кімнат чи завдань або будь-якого введеного вами тексту.</p>
+
+    <h2>Чого ми не робимо</h2>
+    <ul>
+      <li>Не показуємо рекламу.</li>
+      <li>Не продаємо й не передаємо ваші дані для реклами.</li>
+      <li>Не відстежуємо вас у застосунках і на сайтах інших компаній і не використовуємо рекламний ідентифікатор (IDFA).</li>
+      <li>Не просимо ваше ім'я, пошту, контакти, фото чи точне місцезнаходження.</li>
+    </ul>
+
+    <h2>Як довго зберігаються дані</h2>
+    <ul>
+      <li>Дані на пристрої зберігаються, доки ви не видалите застосунок.</li>
+      <li>Події аналітики Google зберігає обмежений час (до 14 місяців), після чого вони видаляються автоматично.</li>
+      <li>Записи про підписку RevenueCat і Apple зберігають стільки, скільки потрібно для оплати, обліку та виконання вимог закону.</li>
+    </ul>
+
+    <h2>Ваш вибір і права</h2>
+    <ul>
+      <li><strong>Видалити дані на пристрої:</strong> видаліть Hummly з iPhone. Разом із ним зникнуть кімнати, завдання й історія.</li>
+      <li><strong>Видалити дані в сервісах:</strong> напишіть нам на <a href="mailto:hummly.app@gmail.com">hummly.app@gmail.com</a>. Оскільки акаунт анонімний, вкажіть, будь ласка, дату встановлення Hummly. Ми видалимо пов'язані записи аналітики й підписки, якими керуємо.</li>
+      <li><strong>Керувати підпискою чи скасувати її:</strong> Параметри iPhone → ваше ім'я → Підписки.</li>
+      <li><strong>Сповіщення:</strong> їх можна будь-коли вимкнути в Параметрах iPhone → Сповіщення → Hummly.</li>
+    </ul>
+    <p>Залежно від того, де ви живете (наприклад, у ЄС, Великій Британії чи Каліфорнії), ви можете мати право отримати доступ до своїх персональних даних, виправити чи видалити їх або заперечити проти їх обробки. Напишіть нам, і ми відповімо протягом 30 днів. Правова підстава для аналітики — наш законний інтерес у покращенні Hummly; дані про підписку обробляються для виконання договору з вами.</p>
+
+    <h2>Діти</h2>
+    <p>Hummly призначений для дорослих, які ведуть домашнє господарство. Він не орієнтований на дітей до 13 років, і ми свідомо не збираємо їхніх персональних даних.</p>
+
+    <h2>Передавання даних за кордон</h2>
+    <p>Google і RevenueCat можуть обробляти дані в США та інших країнах. Там, де це вимагається, вони використовують захисні механізми, як-от стандартні договірні положення.</p>
+
+    <h2>Зміни</h2>
+    <p>Якщо ми змінимо цю політику, то оновимо цю сторінку й дату вгорі. Про суттєві зміни також напишемо в описі оновлення застосунку.</p>
+
+    <h2>Контакти</h2>
+    <p>Запитання чи запити: <a href="mailto:hummly.app@gmail.com">hummly.app@gmail.com</a></p>
+  </article>
+
+  <footer>© 2026 Hummly</footer>
+</main>
+<script>
+  (function () {
+    var langs = ['en', 'uk'];
+    function show(lang) {
+      document.querySelectorAll('[data-lang]').forEach(function (el) {
+        el.classList.toggle('shown', el.dataset.lang === lang);
+      });
+      document.querySelectorAll('[data-switch]').forEach(function (a) {
+        a.classList.toggle('active', a.dataset.switch === lang);
+      });
+      document.documentElement.lang = lang;
+    }
+    function fromPage() {
+      var hash = location.hash.slice(1);
+      if (langs.indexOf(hash) >= 0) return hash;
+      var nav = (navigator.language || 'en').slice(0, 2).toLowerCase();
+      return nav === 'uk' ? 'uk' : 'en';
+    }
+    window.addEventListener('hashchange', function () { show(fromPage()); });
+    show(fromPage());
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><defs>
+<linearGradient id="hcBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5CC48C"/><stop offset="1" stop-color="#1E7F62"/></linearGradient>
+<linearGradient id="hcHead" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#6BD098"/><stop offset="1" stop-color="#238A63"/></linearGradient>
+<linearGradient id="hcFeather" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DA877"/><stop offset=".55" stop-color="#9ED6A4"/><stop offset="1" stop-color="#F6A877"/></linearGradient>
+<linearGradient id="hcCrest" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#F6B04F"/><stop offset="1" stop-color="#E5533D"/></linearGradient>
+<linearGradient id="hcTail" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E9E6E"/><stop offset=".45" stop-color="#E5533D"/><stop offset="1" stop-color="#F6B04F"/></linearGradient>
+</defs>
+<defs><linearGradient id="icBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4E8"/><stop offset="1" stop-color="#FFE0CC"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#icBg)"/>
+<g transform="translate(10 100) scale(4.6)">
+<path d="M68 128 C48 132 28 144 14 162 C36 160 56 150 70 140 Z" fill="url(#hcTail)"/>
+<ellipse cx="92" cy="116" rx="44" ry="33" transform="rotate(-24 92 116)" fill="url(#hcBody)"/>
+<path d="M96 104 C80 70 50 52 30 56 C40 80 66 104 96 112 Z" fill="url(#hcFeather)"/>
+<path d="M108 52 C102 36 108 22 120 14 C122 30 126 40 128 50 Z" fill="url(#hcCrest)"/>
+<circle cx="126" cy="78" r="34" fill="url(#hcHead)"/>
+<path d="M100 98 C112 110 136 110 148 98 C140 104 112 106 100 98 Z" fill="#fff"/>
+<path d="M102 98 C114 112 136 112 146 100 L148 98 C136 106 112 106 102 98 Z" fill="#fff"/>
+<circle cx="141" cy="72" r="11" fill="#1B1B1B"/><circle cx="145" cy="67" r="4" fill="#fff"/>
+<path d="M156 80 L200 72 Q203 73.5 200 75.5 L157 88 Z" fill="#5B6670"/>
+<ellipse cx="156" cy="85" rx="8" ry="5.5" fill="#F08AA0"/>
+</g></svg>
